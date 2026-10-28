@@ -1,0 +1,15 @@
+[project]
+name = "palmer-penguins"
+version = "0.1.0"
+description = "A Machine Learning project exploring classification using the Palmer Penguins dataset."
+readme = "README.md"
+authors = [
+    { name = "Sarah Gäumann", email = "sarah.gaeumann@edu.hefr.ch" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "pandas>=3.1.0",
+    "scikit-learn>=1.9.1",
+    "seaborn>=0.13.2",
+]
+
